@@ -32,7 +32,7 @@ def get_access_token():
         credentials_fc.refresh(Request())
     return credentials_fc.token
 def send_fcm_notification(collection_name, doc_id, title,subtitle):
-    clean_subtitle = (subtitle[:10] + '...') if len(subtitle) > 100 else subtitle
+    clean_subtitle = (subtitle[:97] + '...') if len(subtitle) > 100 else subtitle
     try:
         access_token = get_access_token()
         url = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
