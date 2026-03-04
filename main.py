@@ -41,8 +41,8 @@ def send_fcm_notification(collection_name, doc_id, title,subtitle):
             "message": {
                 "topic": "allUsers",
                 "notification": {
-                    "title": subtitle,
-                    "body": title
+                    "title": title,
+                    "body": clean_subtitle
                 },
                 "android": {
                     "priority": "HIGH",
