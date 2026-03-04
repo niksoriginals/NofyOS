@@ -1,50 +1,36 @@
-# NISO Ecosystem 
-**New Interface for Seamless Operations**
+# 🎓 Nofy — The Ultimate Campus Companion
 
-Welcome to the **NISO Ecosystem**, a centralized hub designed and developed by **Niksoriginals**. NISO is a collection of integrated software solutions, tools, and applications built to streamline digital workflows and enhance user productivity.
-
----
-
-## 🚀 Vision
-Our mission is to bridge the gap between complex technology and the end-user. By creating a **New Interface for Seamless Operations**, we ensure that every tool within this ecosystem is intuitive, fast, and purpose-driven.
-
-## 📱 Featured Applications
-
-### 🔔 Nofy
-*The Ultimate College Management App.*
-- **Purpose:** Keeps students updated with real-time college information and academic notifications.
-- **Status:** [Live/Beta]
-- **Key Feature:** Instant alerts for schedules, events, and circulars.
-
-### 🌐 Niksoriginals
-*The Creative Identity.*
-- The parent brand behind the innovation, focusing on original content and unique software architecture.
+**Nofy** is a high-performance, automated campus management app designed to bridge the gap between colleges and students. From real-time news alerts to smart attendance tracking, Nofy keeps you ahead of your academic life. 🚀
 
 ---
 
-## 🛠️ Built With
-- **Frontend:** [React/Next.js/Flutter]
-- **Backend:** [Node.js/Firebase/Python]
-- **Database:** [Firebase/SQL]
+## ✨ Features
 
-## 📂 How It Works
-The NISO Ecosystem acts as a 'Single Source of Truth' for all apps developed under the Niksoriginals banner. Instead of jumping between platforms, users can access integrated services under one unified interface.
-
----
-
-## 👨‍💻 About the Developer
-NISO is conceptualized and maintained by **Nikhil (Niksoriginals)**. 
-I am passionate about building scalable software solutions that solve real-world problems.
-
-- **Username:** @niksoriginals
-- **Website:** [niso.niksoriginals.in]
-- **Goal:** To innovate, integrate, and inspire.
+* **🔔 Real-time Notifications**: Get automated alerts for college news, events, and urgent updates instantly using Firebase FCM.
+* **📊 Attendance Tracker**: A smart and easy-to-use module to log and monitor your daily attendance. Never fall below the criteria! 📉
+* **📚 Resource Hub**: One-tap access to study materials, previous year papers, and essential college files.
+* **🤖 Python-Powered Automation**: Backend automation that fetches and pushes updates without manual intervention.
+* **⚡ Seamless UI**: A clean and modern interface built with Flutter for a smooth user experience.
 
 ---
 
-## 🤝 Contributing
-If you have suggestions or want to collaborate on any project within the NISO Ecosystem, feel free to reach out or open an issue.
+## 📸 App Preview
+
+<p align="center">
+  <img src="assets/nofy_home.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
+  <img src="assets/nofy_attendance.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
+  <img src="assets/nofy_alerts.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
+</p>
 
 ---
 
-*© 2026 Niksoriginals. All rights reserved.*
+## 🛠 Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | 📱 Flutter (Dart) |
+| **Backend** | 🔥 Firebase (Auth, Firestore, Cloud Messaging) |
+| **Automation** | 🐍 Python (Scrapers/Automation Scripts) |
+| **Design** | ✨ Minimalist UI with Custom Animations |
+
+---
