@@ -17,9 +17,9 @@
 ## 📸 App Preview
 
 <p align="center">
-  <img src="assets/nofy_home.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
-  <img src="assets/nofy_attendance.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
-  <img src="assets/nofy_alerts.jpg" width="200" style="border-radius: 12px; margin: 10px;"/>
+  <img src="assets/home.jpeg" width="200" style="border-radius: 12px; margin: 10px;"/>
+  <img src="assets/notes.jpeg" width="200" style="border-radius: 12px; margin: 10px;"/>
+  <img src="assets/att.jpeg" width="200" style="border-radius: 12px; margin: 10px;"/>
 </p>
 
 ---
