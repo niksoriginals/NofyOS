@@ -31,7 +31,8 @@ def get_access_token():
     if not credentials_fc.valid or credentials_fc.expired:
         credentials_fc.refresh(Request())
     return credentials_fc.token
-def send_fcm_notification(collection_name, doc_id, title):
+def send_fcm_notification(collection_name, doc_id, title,subtitle):
+    clean_subtitle = (subtitle[:10] + '...') if len(subtitle) > 100 else subtitle
     try:
         access_token = get_access_token()
         url = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
@@ -40,7 +41,7 @@ def send_fcm_notification(collection_name, doc_id, title):
             "message": {
                 "topic": "allUsers",
                 "notification": {
-                    "title": "📢 Campus Update",
+                    "title": subtitle,
                     "body": title
                 },
                 "android": {
@@ -84,8 +85,9 @@ def on_snapshot(col_name):
                     
                     if time_diff < 15:
                         title = data.get("title", "New Post")
+                        subtitle = data.get("subtitle", "New Post")
                         print(f"🔔 New Document in {col_name}: {title}")
-                        send_fcm_notification(col_name, doc_id, title)
+                        send_fcm_notification(col_name, doc_id, title,subtitle)
 
     return callback
 print("🚀 Live Listener Started... Monitoring for changes.")
